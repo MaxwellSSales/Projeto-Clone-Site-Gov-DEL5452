@@ -1,0 +1,188 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #009739, #f1c40f); /* Fundo com gradiente nas cores da bandeira */
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Cabeçalho */
+header {
+    background: #ffcc00f0; /* Amarelo para o fundo */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #009739; /* Cor verde da bandeira */
+    box-shadow: 0 4px 6px   rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.158);
+}
+
+header h3 {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-top: 0;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.169);
+}
+
+header img {
+    width: 80px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.537);
+}
+
+/* Navegação no Cabeçalho */
+header nav {
+    margin-top: 20px;
+}
+
+header nav p {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #0056b3; /* Azul para destaque no hover */
+}
+
+/* Seções do conteúdo */
+section {
+    padding: 30px 20px;
+    margin: 20px auto;
+    max-width: 1100px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2, section h3 {
+    font-size: 1.8em;
+    color: #0056b3; /* Azul para cabeçalhos */
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+
+.roman-list {
+    list-style-type: upper-roman;
+    padding: 30px 40px;
+    margin: 20px auto;
+    max-width: 1100px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.roman-list li {
+    margin-bottom: 10px;
+}
+
+
+/* Links */
+a {
+    color: #009739; /* Cor verde para links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0f22f1fc; /* Cor azul para hover */
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+/* Efeito de Sombra nas Imagens */
+img {
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Botões */
+button {
+    background-color: #009739;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul para hover nos botões */
+}
+
+/* Adicionando um fundo de textura ou padrão */
+body {
+    background: url('https://www.transparenttextures.com/patterns/asfalt-pattern.png'), linear-gradient(to bottom, #009739, #f1c40f);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header nav p {
+        font-size: 0.9em;
+        margin: 0 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
